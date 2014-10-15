@@ -26,3 +26,8 @@
 *.exe
 *.out
 *.app
+
+# Dev-C++
+*.win
+*.layout
+*.dev
