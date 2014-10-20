@@ -2,11 +2,11 @@
 
 悲剧的是，我根本没记住公式。于是，查了[维基百科](http://zh.wikipedia.org/wiki/%E5%8D%A1%E5%A1%94%E5%85%B0%E6%95%B0)。现再次记录于下：
 
-![基本公式](http://chart.googleapis.com/chart?cht=tx&chl=C_n = \frac{1}{n+1}{2n \choose n} = \frac{(2n)!}{(n+1)!n!})
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=C_n = \frac{1}{n%2B1}{2n \choose n} = \frac{(2n)!}{(n%2B1)!n!}" style="border:none;">
 
-![递归公式1](http://chart.googleapis.com/chart?cht=tx&chl=C_0 = 1 \quad \mbox{and} \quad C_{n+1}=\sum_{i=0}^{n}C_i\,C_{n-i}\quad\mbox{for }n\ge 0.)
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=C_0 = 1 , C_{n%2B1}=\sum_{i=0}^{n}C_i\,C_{n-i}\quad\mbox{for }n\ge 0." style="border:none;">
 
-![递归公式2]((http://chart.googleapis.com/chart?cht=tx&chl=C_0 = 1 \quad \mbox{and} \quad C_{n+1}=\frac{2(2n+1)}{n+2}C_n,)
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=C_0 = 1 , C_{n%2B1}=\frac{2(2n%2B1)}{n%2B2}C_n," style="border:none;">
 
 这里面比较重要的是最后一个公式。（适用于循环解法）
 
