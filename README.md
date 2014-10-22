@@ -12,7 +12,7 @@ LeetCode solutions in C++ 11.
 |[Best Time to Buy and Sell Stock II][5]| [C++](5. Best Time to Buy and Sell Stock II/solution.h)|2014/10/19|Medium|
 |[Unique Binary Search Trees][6]| [C++](6. Unique Binary Search Trees/solution.h)|2014/10/20|Medium|
 |[Linked List Cycle][7]| [C++](7. Linked List Cycle/solution.h)|2014/10/21|Medium|
-|[Binary Tree Inorder Traversal][8]|C++|2012/8/27|Medium|
+|[Binary Tree Inorder Traversal][8]| [C++](8. Binary Tree Inorder Traversal/solution.h)|2014/10/22|Medium|
 |[Binary Tree Preorder Traversal][9]|C++|2013/11/5|Medium|
 |[Populating Next Right Pointers in Each Node][10]|C++|2012/10/28|Medium|
 |[Search Insert Position][11]|C++|2012/3/3|Medium|
