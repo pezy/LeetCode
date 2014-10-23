@@ -13,7 +13,7 @@ LeetCode solutions in C++ 11.
 |[Unique Binary Search Trees][6]| [C++](6. Unique Binary Search Trees/solution.h)|2014/10/20|Medium|
 |[Linked List Cycle][7]| [C++](7. Linked List Cycle/solution.h)|2014/10/21|Medium|
 |[Binary Tree Inorder Traversal][8]| [C++](8. Binary Tree Inorder Traversal/solution.h)|2014/10/22|Medium|
-|[Binary Tree Preorder Traversal][9]| [C++](9. Binary Tree Preorder Traversal)|2014/10/22|Medium|
+|[Binary Tree Preorder Traversal][9]| [C++](9. Binary Tree Preorder Traversal/solution.h)|2014/10/22|Medium|
 |[Populating Next Right Pointers in Each Node][10]|C++|2012/10/28|Medium|
 |[Search Insert Position][11]|C++|2012/3/3|Medium|
 |[Remove Duplicates from Sorted List][12]|C++|2012/4/22|Easy|
