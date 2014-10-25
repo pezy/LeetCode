@@ -15,7 +15,7 @@ LeetCode solutions in C++ 11.
 |[Binary Tree Inorder Traversal][8]| [C++](08. Binary Tree Inorder Traversal/solution.h)|2014/10/22|Medium|
 |[Binary Tree Preorder Traversal][9]| [C++](09. Binary Tree Preorder Traversal/solution.h)|2014/10/23|Medium|
 |[Populating Next Right Pointers in Each Node][10]| [C++](10. Populating Next Right Pointers in Each Node/solution.h)|2014/10/24|Medium|
-|[Search Insert Position][11]|C++|2012/3/3|Medium|
+|[Search Insert Position][[11]]| [C++](11. Search Insert Position/solution.h)|2014/10/25|Medium|
 |[Remove Duplicates from Sorted List][12]|C++|2012/4/22|Easy|
 |[Climbing Stairs][13]|C++|2012/4/3|Easy|
 |[Maximum Subarray][14]|C++|2012/3/21|Medium|
