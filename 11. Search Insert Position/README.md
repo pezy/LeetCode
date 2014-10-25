@@ -21,7 +21,8 @@ else high = mid - 1; // A[mid] > target.
 
 看到网友 Star 了陈皓的 [LeetCode](https://github.com/haoel/leetcode), 作为长期看他的博客, 实在按捺不住好奇心,
 去看了看这道题他的代码. 果然他也用的二分搜索.(只是用的好啰嗦...), 另外居然发现他得代码有个 Bug, 汗~ 
-我提交了一个 [issues](https://github.com/haoel/leetcode/issues/7) 给他. 有点低级...
+我提交了一个 [issues](https://github.com/haoel/leetcode/issues/7) 给他. 有点低级... 最后发现我把符号看错了...
+我写的时候用的加号, 他不知为啥费劲先减后加...囧, 赶紧关闭了问题. 囧死了...
 
 ------
 
