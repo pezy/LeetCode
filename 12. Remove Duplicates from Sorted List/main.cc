@@ -1,44 +1,44 @@
 #include <iostream>
+#include <vector>
 #include "solution.h"
+using std::vector;
+using vecIter = vector<int>::iterator;
 
-void print(ListNode *head)
+ListNode *createLinkedList(vecIter beg, vecIter end)
 {
-  while (head)
-  {
-    std::cout << head->val;
-    if (head->next) std::cout << "->";
-    ListNode *del = head;
-    head = head->next;
-    delete del;
-  }
-  std::cout << std::endl;
+    ListNode *head = beg == end ? NULL : new ListNode(*beg++);
+    for (ListNode *cur = head; beg != end; cur = cur->next)
+        cur->next = new ListNode(*beg++);
+    return head;
+}
+
+void printAndClear(ListNode *head)
+{
+    while (head)
+    {
+        std::cout << head->val;
+        if (head->next) std::cout << "->";
+        ListNode *del = head;
+        head = head->next;
+        delete del;
+    }
+    std::cout << std::endl;
 }
 
 int main()
 {
-  ListNode *head = new ListNode(1);
-  ListNode *head1 = new ListNode(1);
-  ListNode *node1 = new ListNode(1);
-  ListNode *node2 = new ListNode(1);
-  ListNode *node3 = new ListNode(2);
-  ListNode *node4 = new ListNode(2);
-  ListNode *node5 = new ListNode(3);
-  ListNode *node6 = new ListNode(3);
-
-  head->next = node1;
-  node1->next = node3;
-
-  head1->next = node2;
-  node2->next = node4;
-  node4->next = node5;
-  node5->next = node6;
-
-  Solution s;
-  ListNode *res = s.deleteDuplicates(head);
-  ListNode *res1 = s.deleteDuplicates(head1);
-
-  print(res);
-  print(res1);
-
-  return 0;
+    vector<int> vec = {1,1,2};
+    vector<int> vec1 = {1,1,2,3,3};
+    
+    ListNode *head = createLinkedList(vec.begin(), vec.end());
+    ListNode *head1 = createLinkedList(vec1.begin(), vec1.end());
+    
+    Solution s;
+    ListNode *res = s.deleteDuplicates(head);
+    ListNode *res1 = s.deleteDuplicates(head1);
+    
+    printAndClear(res);
+    printAndClear(res1);
+    
+    return 0;
 }
