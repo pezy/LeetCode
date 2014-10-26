@@ -23,6 +23,27 @@ return ret;
 
 -----
 
+经 @Mooophy 指点, 这个递归其实并不直观, 他提供了一个更直观简洁的写法(略有改动), 我看了后拍案叫绝.
+```cpp
+std::vector<int> inorderTraversal(TreeNode *root)
+{
+    std::vector<int> v;
+    inorderTraversal(root, v);
+    return v;
+}
+
+void inorderTraversal(TreeNode *root, std::vector<int> &v)
+{
+    if (root == NULL) return;
+    inorderTraversal(root->left, v);
+    v.push_back(root->val);
+    inorderTraversal(root->right, v);
+}
+```
+他巧妙(或者说更自然的)多用了一个函数, 使得递归过程, 更加的漂亮. 避免了上面我所使用的无奈之举 -- insert. 这种思路要借鉴.
+
+-----
+
 咱们的追求不能仅仅于此对吧。非递归解法才是挑战。手动的记录节点，需要一个栈来帮我们，我用STL我自豪，于是我请来了 std::stack， 然后
 几乎还是参考上面递归的思路。只不过入栈的顺序是先root，然后left，等到right，则先出left, 然后root, 最后再出right。 这个是核心思路。
 
