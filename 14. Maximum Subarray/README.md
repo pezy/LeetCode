@@ -4,6 +4,7 @@
 
 1. A[0] + A[1]
 2. A[1]
+
 说白了，就是，要么容纳新文化（改良派），要么重新开始（革命派）。哪一种可以带来最大利益，就选择哪一种。（因为人类社会也是连续的）
 
 但这里，如果发生了革命，就会产生断链。把镜头拉远，从整条历史长河去看，每一条链子，哪一条最长呢？至少你得记录下巅峰的最大利益吧？
@@ -21,3 +22,11 @@ maxv = max(benefited, maxv);
 ------
 
 题目比较基础，扯了点政治与历史。谁说计算机与人文不是密切相关的。。。
+
+------
+
+另外，该题下面说到 More practice， 提到要用分治法？我没什么思路，请明白者提点。
+
+>If you have figured out the O(n) solution, try coding another solution using the divide and conquer approach, which is more subtle
+
+咳咳咳， @Mooophy ，该出来了。。。
