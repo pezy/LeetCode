@@ -18,7 +18,7 @@ LeetCode solutions in C++ 11.
 |[Search Insert Position][11]| [C++](11. Search Insert Position/solution.h)|2014/10/25|Medium|
 |[Remove Duplicates from Sorted List][12]| [C++](12. Remove Duplicates from Sorted List/solution.h)|2014/10/26|Easy|
 |[Climbing Stairs][13]| [C++](13. Climbing Stairs/solution.h)|2014/10/27|Easy|
-|[Maximum Subarray][14]|C++|2012/3/21|Medium|
+|[Maximum Subarray][14]| [C++](14. Maximum Subarray/solution.h)|2014/10/28|Medium|
 |[N-Queens II][15]|C++|2012/3/20|Hard|
 |[Roman to Integer][16]|C++|2012/1/15|Easy|
 |[Integer to Roman][17]|C++|2012/1/15|Medium|
