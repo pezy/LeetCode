@@ -5,8 +5,8 @@ class Solution {
 public:
     int romanToInt(string s) {
         int res = 0;
-        for (auto ic = s.rbegin(); ic != s.rend(); ++ic)
-            switch (*ic)
+        for (auto iter = s.rbegin(); iter != s.rend(); ++iter)
+            switch (*iter)
             {
                 case 'I': res += res >= 5 ? -1 : 1; break;
                 case 'V': res += 5; break;
