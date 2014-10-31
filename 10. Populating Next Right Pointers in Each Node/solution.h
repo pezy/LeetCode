@@ -13,12 +13,11 @@ public:
         while (root->left)
         {
             root->left->next = root->right;
-            if (root->next)
-                for (TreeLinkNode *cur = root; cur->next; cur = cur->next)
-                {
-                    cur->right->next = cur->next->left;
-                    cur->next->left->next = cur->next->right;
-                }
+            for (TreeLinkNode *cur = root; cur->next; cur = cur->next)
+            {
+                cur->right->next = cur->next->left;
+                cur->next->left->next = cur->next->right;
+            }
             root = root->left;
         }
     }
