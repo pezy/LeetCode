@@ -17,22 +17,22 @@ struct ListNode {
 class Solution {
 public:
     ListNode *mergeTwoLists(ListNode *l1, ListNode *l2) {
-        ListNode *header = NULL;
-        ListNode **p;
+        ListNode *header = NULL, **p;
         for (p = &header; l1 && l2; p = &(*p)->next)
         {
             if (l1->val <= l2->val)
             {
-                *p = l1;
+                *p = new ListNode(l1->val);
                 l1 = l1->next;
             }
             else
             {
-                *p = l2;
+                *p = new ListNode(l2->val);
                 l2 = l2->next;
             }
         }
-        *p = l1 ? l1 : l2;
+        for (ListNode *leave = l1 ? l1 : l2; leave; leave = leave->next, p = &(*p)->next)
+            *p = new ListNode(leave->val);
         return header;
     }
 };
