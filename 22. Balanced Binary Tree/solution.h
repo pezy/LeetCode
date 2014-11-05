@@ -20,14 +20,21 @@ struct TreeNode {
 class Solution {
 public:
     bool isBalanced(TreeNode *root) {
-        return root == NULL || (isBalanced(root->left) 
-                             && isBalanced(root->right) 
-                             && std::abs(treeHigh(root->left) - treeHigh(root->right)) <= 1);    
+        height(root);
+        return bBalanced;    
     }
 private:  
-    int treeHigh(TreeNode *node)
+    int height(TreeNode *node)
     {
-        if (node == NULL) return 0;
-        else return 1+std::max(treeHigh(node->left), treeHigh(node->right));
+        if (node == NULL || !bBalanced) return 0;
+        else
+        {
+            int leftHeight = height(node->left);
+            int rightHeight = height(node->right);
+            if (std::abs(leftHeight - rightHeight) > 1) bBalanced = false;
+            return std::max(leftHeight, rightHeight) + 1;
+        }
     }
+    
+    bool bBalanced = true;
 };
