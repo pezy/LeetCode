@@ -30,9 +30,9 @@ LeetCode solutions in C++ 11.
 |[Swap Nodes in Pairs][23]|[C++](23. Swap Nodes in Pairs/solution.h)|2014/11/6|Medium
 |[Remove Duplicates from Sorted Array][24]|[C++](24. Remove Duplicates from Sorted Array/solution.h)|2014/11/7|Easy
 |[Sort Colors][25]|[C++](25. Sort Colors/solution.h)|2014/11/8|Medium
-|[Gray Code][26]|[C++](26. Gray Code/solution.h)|2014/11/9|Medium
+|[Merge Sorted Array][26]|[C++](26. Merge Sorted Array/solution.h)|2014/11/9|Easy
 |[Symmetric Tree][27]|[C++](27. Symmetric Tree/solution.h)|2014/11/10|Easy
-|[Merge Sorted Array][28]|[C++](28. Merge Sorted Array/solution.h)|2014/11/11|Easy
+|[Gray Code][28]|[C++](28. Gray Code/solution.h)|2014/11/11|Medium
 |[Unique Paths][29]|[C++](29. Unique Paths/solution.h)|2014/11/12|Medium
 |[Plus One][30]|[C++](30. Plus One/solution.h)|2014/11/13|Easy
 |[Generate Parentheses][31]|[C++](31. Generate Parentheses/solution.h)|2014/11/14|Medium
