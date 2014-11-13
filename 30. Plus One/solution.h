@@ -7,7 +7,7 @@ public:
         for (auto iter = digits.rbegin(); iter != digits.rend(); ++iter)
             if (++*iter < 10) break;
             else *iter = 0; 
-        if (*digits.begin() == 0) digits.insert(digits.begin(), 1);
+        if (digits.front() == 0) digits.insert(digits.begin(), 1);
         return digits;
     }
 };
