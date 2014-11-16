@@ -1,7 +1,7 @@
 #include <algorithm>
 #include <vector>
 
-using std::vector; using std::prev; using std::next; using std::max; using std::min;
+using std::vector; using std::prev; using std::max; using std::min;
 
 class Solution {
 public:
