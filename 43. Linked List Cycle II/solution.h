@@ -12,8 +12,8 @@ public:
         if (head && head->next)
             for (ListNode *slow = head, *fast = head->next; fast && fast->next; slow = slow->next, fast = fast->next->next)
                 if (slow == fast)
-                    for (fast = head, slow = slow->next; true; fast = fast->next, slow = slow->next)
-                        if (slow == fast) return slow;
+                    for (slow = slow->next; true; head = head->next, slow = slow->next)
+                        if (slow == head) return slow;
         return NULL;
     }
 };
