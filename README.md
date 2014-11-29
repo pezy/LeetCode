@@ -3,8 +3,8 @@ LeetCode
 
 LeetCode solutions in C++ 11. (From Easy to Hard)
 
-|NO.| Title | Solution | Add Date | Difficulty |
-| - | ----- | -------- | -------- | ---------- |
+|NO.|Title|Solution|Add Date|Difficulty|
+|---|-----|--------|--------|----------|
 |1|[Single Number][1]| [C++](./01. Single Number/solution.h)|2014/10/15|Medium|
 |2|[Maximum Depth of Binary Tree][2]| [C++](./02. Maximum Depth of Binary Tree/solution.h)|2014/10/16|Easy|
 |3|[Same Tree][3]| [C++](./03. Same Tree/solution.h)|2014/10/17|Easy|
