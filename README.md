@@ -57,7 +57,7 @@ LeetCode solutions in C++ 11. (From Easy to Hard)
 |50|[Pascal's Triangle II][50]|[C++](50. Pascal's Triangle II/solution.h)|2014/12/3|Easy
 |51|[Combinations][51]|[C++](51. Combinations/solution.h)|2014/12/4|Medium
 |52|[Sum Root to Leaf Numbers][52]|[C++](52. Sum Root to Leaf Numbers/solution.h)|2014/12/5|Medium
-|53|[Remove Nth Node From End of List][53]|[C++](53. Remove Nth Node From End of List/solution.h)|2014/12/6|Easy
+|53|[Remove Nth Node from End of List][53]|[C++](53. Remove Nth Node from End of List/solution.h)|2014/12/6|Easy
 |54|[Minimum Depth of Binary Tree][54]|[C++](54. Minimum Depth of Binary Tree/solution.h)|2014/12/7|Easy
 |55|[Length of Last Word][55]|[C++](55. Length of Last Word/solution.h)|2014/12/8|Easy
 |56|[Trapping Rain Water][56]|[C++](56. Trapping Rain Water/solution.h)|2014/12/9|Hard
