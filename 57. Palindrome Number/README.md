@@ -1,4 +1,4 @@
-这道题的思路请参考：[04. Reverse Integer](./04. Reverse Integer)，Palindrome 的本质就是 reverse 之后还是自己。
+这道题的思路请参考：[04. Reverse Integer](../04. Reverse Integer)，Palindrome 的本质就是 reverse 之后还是自己。
 
 -----
 
