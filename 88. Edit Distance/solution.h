@@ -18,10 +18,8 @@ public:
         for (int i=0; i<=n; ++i) A[i][0] = i;
         
         for (int i=1; i<=n; ++i)
-            for (int j=1; j<=m; ++j) {
-                int cost = word1[i-1] == word2[j-1] ? 0 : 1;
-                A[i][j] = min(min(A[i-1][j]+1, A[i][j-1]+1), A[i-1][j-1]+cost);
-            }
+            for (int j=1; j<=m; ++j)
+                A[i][j] = min(min(A[i-1][j]+1, A[i][j-1]+1), A[i-1][j-1] + (word1[i-1] == word2[j-1] ? 0 : 1));
         return A[n][m];
     }
 };
