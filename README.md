@@ -254,8 +254,8 @@ LeetCode solutions in C++ 11. (From Easy to Hard)
 [92]:https://oj.leetcode.com/problems/distinct-subsequences/
 [93]:https://oj.leetcode.com/problems/permutations-ii/
 [94]:https://oj.leetcode.com/problems/remove-duplicates-from-sorted-list-ii/
-[95]:https://oj.leetcode.com/problems/combination-sum-ii/
-[96]:https://oj.leetcode.com/problems/jump-game-ii/
+[95]:https://oj.leetcode.com/problems/jump-game-ii/
+[96]:https://oj.leetcode.com/problems/combination-sum-ii/
 [97]:https://oj.leetcode.com/problems/anagrams/
 [98]:https://oj.leetcode.com/problems/recover-binary-search-tree/
 [99]:https://oj.leetcode.com/problems/zigzag-conversion/
