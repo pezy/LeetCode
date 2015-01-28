@@ -2,7 +2,7 @@
 #include "../Catch/single_include/catch.hpp"
 #include "solution.h"
 
-TEST_CASE("Scramble String", "[isScramble]")
+TEST_CASE("Valid Palindrome", "[isPalindrome]")
 {
     Solution s;
     REQUIRE(s.isPalindrome("A man, a plan, a canal: Panama"));
