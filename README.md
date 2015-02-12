@@ -277,8 +277,8 @@ LeetCode solutions in C++ 11. (From Easy to Hard)
 [114]:https://oj.leetcode.com/problems/largest-rectangle-in-histogram/
 [115]:https://oj.leetcode.com/problems/merge-k-sorted-lists/
 [116]:https://oj.leetcode.com/problems/word-break/
-[117]:https://oj.leetcode.com/problems/sudoku-solver/
-[118]:https://oj.leetcode.com/problems/merge-intervals/
+[117]:https://oj.leetcode.com/problems/merge-intervals/
+[118]:https://oj.leetcode.com/problems/sudoku-solver/
 [119]:https://oj.leetcode.com/problems/spiral-matrix/
 [120]:https://oj.leetcode.com/problems/longest-palindromic-substring/
 [121]:https://oj.leetcode.com/problems/insert-interval/
