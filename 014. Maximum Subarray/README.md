@@ -15,7 +15,7 @@ benefited = max(A[i], benefited + A[i]);
 maxv = max(benefited, maxv);
 ```
 
-聪明的你一定发现了，第一句条恰是**当权者的决策**，第二条恰是**历史学家的总结**。 横批：人类是贪婪的。 
+聪明的你一定发现了，第一句条恰是**当权者的决策**，第二条恰是**历史学家的总结**。 横批：人类是贪婪的。
 
 所以不要怪任何一方，从他们的立场看，都是最优解。局部最优能否导致整体最优呢？ 千年谜题。
 
@@ -30,3 +30,37 @@ maxv = max(benefited, maxv);
 >If you have figured out the O(n) solution, try coding another solution using the divide and conquer approach, which is more subtle
 
 咳咳咳， @Mooophy ，该出来了。。。
+
+-----
+
+@Mooophy 应约而出，给出了[代码](#8)，我根据其代码，尝试分析一下分治法的策略：
+
+分治法的灵魂在于一个 **"分"** 字。对于这道题而言，求`A`的最大和子序列，可以给`A`来一刀：
+
+    −2,1,−3,4,−1,2,1,−5,4
+    left       |    right
+           crossing
+
+由于子序列连续，它必然属于上述划分中的某一种情况：
+
+- 完全属于 left 部分
+- 完全属于 right 部分
+- 属于 crossing 部分（即跨越中点）
+
+于是其核心代码如下：
+
+```cpp
+int maxSubArray(int A[], int l, int h) {
+    if (l == h) return A[l]; // 仅有一个数
+    int m = (l + h) / 2;     // 中点位置(划分点)
+    return std::max({maxSubArray(A, l, m), maxSubArray(A, m+1, h), maxCrossing(A, l, m, h)});
+}
+```
+
+是否非常的简洁呢？
+
+下面问题集中在 `maxCrossing` 的策略，这个过程可以线性求出。即将其属于 `left` 范畴的 `sum` 与属于 `right` 范畴的 `sum` 加起来即可。
+
+实现代码请见：[divide_conquer.h](divide_conquer.h)
+
+这部分的详细思路可参考 CLRS 的第四章分治法的第一小节。
