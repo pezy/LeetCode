@@ -7,8 +7,8 @@ int main()
     Solution s;
     std::cout << s.maxSubArray(A, 9) << std::endl;
 
-	SolutionByDivideAndConquer dac;
-	std::cout << s.maxSubArray(A, 9) << std::endl;
+    SolutionByDivideAndConquer dac;
+    std::cout << dac.maxSubArray(A, 9) << std::endl;
 
     return 0;
 } 
