@@ -3,20 +3,23 @@
 using std::vector;
 
 class Solution {
+    int binarySearch(int A[], int l, int r, int target) {
+        for (int mid; l <= r; ) {
+            mid = ( l + r ) >> 1;
+            if      ( A[mid] < target ) l = mid + 1;
+            else if ( A[mid] > target ) r = mid - 1;
+            else return mid;
+        }
+        return -1;
+    }
 public:
     vector<int> searchRange(int A[], int n, int target) {
-        if (A[0] == A[n-1] && A[0] == target) return vector<int>{0, n-1};
-        vector<int> retv{-1, -1};
-        for (int i=0, j=n-1; i<=j; ) {
-            int mid = (i + j) >> 1;
-            if (target == A[mid]) {retv[0] = retv[1] = mid; break;}
-            else if (target < A[mid]) j = mid-1;
-            else i = mid + 1;
+        int iPos = binarySearch( A, 0, n-1, target ), l = -1, r = -1;
+        if ( iPos != -1 ) {
+            l = r = iPos;
+            for (int lo = l; (lo = binarySearch(A, 0,   lo-1, target)) != -1; l = lo ) ;
+            for (int hi = r; (hi = binarySearch(A, hi+1, n-1, target)) != -1; r = hi ) ;
         }
-        while (retv[0]>0 && A[retv[0]-1] == target)
-            --retv[0];
-        while (retv[1]<n-1 && A[retv[1]+1] == target)
-            ++retv[1];
-        return retv;
+        return {l ,r};
     }
 };
