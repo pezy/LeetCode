@@ -157,7 +157,7 @@ LeetCode solutions in C++ 11. (From Easy to Hard)
 |150|[LRU Cache][150]|[C++](150. LRU Cache/solution.h)|2015/03/13|Hard|
 |151|[Text Justification][151]|[C++](151. Text Justification/solution.h)|2015/03/14|Hard|
 |152|[Word Ladder II][152]|[C++](152. Word Ladder II/solution.h)|2015/03/15|Hard|
-|153|[Valid Number][153]|[C++](153. Valid Number/solution.h)|2015/03/16|Easy|
+|153|[Valid Number][153]|[C++](153. Valid Number/solution.h)|2015/03/16|Hard|
 |154|[Max Points on a Line][154]|[C++](154. Max Points on a Line/solution.h)|2015/03/17|Hard|
 
 
