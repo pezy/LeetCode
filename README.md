@@ -7,10 +7,10 @@ LeetCode solutions in C++ 11. (From Easy to Hard)
 |---|-----|--------|--------|----------|
 |1|[Single Number][1]|[C++](001.%20Single%20Number/solution.h)|2014/10/15|Medium|
 |2|[Maximum Depth of Binary Tree][2]|[C++](002.%20Maximum%20Depth%20of%20Binary%20Tree/solution.h)|2014/10/16|Easy|
-|3|[Same Tree][3]|[C++](003.%20Same Tree/solution.h)|2014/10/17|Easy|
+|3|[Same Tree][3]|[C++](003.%20Same%20Tree/solution.h)|2014/10/17|Easy|
 |4|[Reverse Integer][4]|[C++](004.%20Reverse%20Integer/solution.h)|2014/10/18|Easy|
 |5|[Best Time to Buy and Sell Stock II][5]|[C++](005.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II/solution.h)|2014/10/19|Medium|
-|6|[Unique Binary Search Trees][6]|[C++](006.%20Unique Binary Search Trees/solution.h)|2014/10/20|Medium|
+|6|[Unique Binary Search Trees][6]|[C++](006.%20Unique%20Binary%20Search%20Trees/solution.h)|2014/10/20|Medium|
 |7|[Linked List Cycle][7]|[C++](007.%20Linked%20List%20Cycle/solution.h)|10/21/2014|Medium|
 |8|[Binary Tree Inorder Traversal][8]|[C++](008.%20Binary%20Tree%20Inorder%20Traversal/solution.h)|10/22/2014|Medium|
 |9|[Binary Tree Preorder Traversal][9]|[C++](009.%20Binary%20Tree%20Preorder%20Traversal/solution.h)|10/23/2014|Medium|
