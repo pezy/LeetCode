@@ -1,3 +1,5 @@
+# 思路(C++)
+
 昨晚看C++ Primer 5th的[习题5.14](https://github.com/pezy/Cpp-Primer/blob/master/ch05/ex5_14.cpp)
 想了很常规的解法，但脑子里一直都在想有没有更好的方案，因为这道题很像是在一篇文章里检索连续的高频词。应该是非常常见的才对。
 但因为多了一个要求**连续**的条件，所以却又不太一样。
@@ -18,3 +20,9 @@ C++ Primer 5th ==> 4.8. The Bitwise Operators ==> Bitwise AND, OR, and XOR Opera
 异或(^)的特点是: **按位，同为0，异为1。**
 
 所以这道题要找"落单"那哥们，就将他们全部异或，相同的小伙伴异或后为0了，可不就剩下那个老光棍了么。
+
+## Python
+
+心血来潮用 python 再刷一遍, 这道题有一种更简洁的写法是用 `reduce`. 为啥我只用了最简单的 `for` 循环呢?
+
+请见 <https://stackoverflow.com/questions/181543/what-is-the-problem-with-reduce>

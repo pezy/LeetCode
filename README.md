@@ -5,7 +5,7 @@ LeetCode solutions in C++ 11. (From Easy to Hard)
 
 |NO.|Title|Solution|Add Date|Difficulty|
 |---|-----|--------|--------|----------|
-|1|[Single Number][1]|[C++](001.%20Single%20Number/solution.h)|2014/10/15|Medium|
+|1|[Single Number][1]|[C++](001.%20Single%20Number/solution.h)&#124;[Python](001.%20Single%20Number/solution.py)|2014/10/15|Medium|
 |2|[Maximum Depth of Binary Tree][2]|[C++](002.%20Maximum%20Depth%20of%20Binary%20Tree/solution.h)|2014/10/16|Easy|
 |3|[Same Tree][3]|[C++](003.%20Same%20Tree/solution.h)|2014/10/17|Easy|
 |4|[Reverse Integer][4]|[C++](004.%20Reverse%20Integer/solution.h)|2014/10/18|Easy|
