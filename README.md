@@ -7,7 +7,7 @@ LeetCode solutions in C++ 11. (From Easy to Hard)
 |---|-----|--------|--------|----------|
 |1|[Single Number][1]|[C++](001.%20Single%20Number/solution.h)&#124;[Python](001.%20Single%20Number/solution.py)|2014/10/15|Medium|
 |2|[Maximum Depth of Binary Tree][2]|[C++](002.%20Maximum%20Depth%20of%20Binary%20Tree/solution.h)&#124;[Python](002.%20Maximum%20Depth%20of%20Binary%20Tree/solution.py)|2014/10/16|Easy|
-|3|[Same Tree][3]|[C++](003.%20Same%20Tree/solution.h)|2014/10/17|Easy|
+|3|[Same Tree][3]|[C++](003.%20Same%20Tree/solution.h)&#124;[Python](003.%20Same%20Tree/solution.py)|2014/10/17|Easy|
 |4|[Reverse Integer][4]|[C++](004.%20Reverse%20Integer/solution.h)|2014/10/18|Easy|
 |5|[Best Time to Buy and Sell Stock II][5]|[C++](005.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II/solution.h)|2014/10/19|Medium|
 |6|[Unique Binary Search Trees][6]|[C++](006.%20Unique%20Binary%20Search%20Trees/solution.h)|2014/10/20|Medium|
