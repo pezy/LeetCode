@@ -1,7 +1,7 @@
 LeetCode
 ========
 
-LeetCode solutions in C++ 11. (From Easy to Hard)
+LeetCode solutions in C++ 11 and Python.
 
 |NO.|Title|Solution|Add Date|Difficulty|
 |---|-----|--------|--------|----------|
