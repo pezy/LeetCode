@@ -22,6 +22,24 @@
 
 程序里，我们就要为墙所在的地方设置标记位。换句话说，我们也可以给不为墙的地方设置标记位，如给二维数组初始化时，将值设为 -1.那么走过的地方自然不可能为 -1，就成了墙。
 
+
+
+Your "maze problem" description is quite clear and provides a straightforward approach to solving it. The idea of treating the matrix as a maze and walking through it until you reach the center by making turns at the borders or "walls" is a valid way to approach this problem.
+
+The key points in your approach:
+
+1. You initialize a square matrix, and you start from the top-left corner.
+
+2. You walk through the matrix, incrementing a value with each step.
+
+3. You have a stopping condition: Matrix[i][j] != -1, which marks the "wall" or border of the maze. When you reach this condition, you know you've completed a circle, and you turn inwards.
+
+4. You continue walking inwards until you reach the center, where Matrix[i][j] == n*n, and your value equals nn.
+
+This is a simple and intuitive way to solve this problem. It's not necessarily a standard algorithm but more of a maze-solving strategy applied to a matrix. It's understandable and could work well for small to moderately sized matrices.
+
+While this approach is clear and easy to follow, it might not be the most efficient solution for extremely large matrices due to its circular nature. However, for most practical cases, it should work just fine. If you encounter performance issues with larger matrices, you can explore more optimized algorithms or data structures to speed up the process.
+
 所以转圈停止的条件为： `Matrix[i][j] != -1;`
 
 ok，如果将每一步产生的值记录下来（设为value, 每走一步就自加）, 那么当 value == n*n 的时候就算走到了中心。如果不等于 n*n，就要向里面再转一圈。
