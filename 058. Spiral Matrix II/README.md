@@ -24,6 +24,14 @@
 
 
 
+
+所以转圈停止的条件为： `Matrix[i][j] != -1;`
+
+ok，如果将每一步产生的值记录下来（设为value, 每走一步就自加）, 那么当 value == n*n 的时候就算走到了中心。如果不等于 n*n，就要向里面再转一圈。
+
+思路很清楚了，我觉得这个解法很直接，代码也并不繁复，非常好理解。请大家拍砖。
+
+
 Your "maze problem" description is quite clear and provides a straightforward approach to solving it. The idea of treating the matrix as a maze and walking through it until you reach the center by making turns at the borders or "walls" is a valid way to approach this problem.
 
 The key points in your approach:
@@ -39,9 +47,3 @@ The key points in your approach:
 This is a simple and intuitive way to solve this problem. It's not necessarily a standard algorithm but more of a maze-solving strategy applied to a matrix. It's understandable and could work well for small to moderately sized matrices.
 
 While this approach is clear and easy to follow, it might not be the most efficient solution for extremely large matrices due to its circular nature. However, for most practical cases, it should work just fine. If you encounter performance issues with larger matrices, you can explore more optimized algorithms or data structures to speed up the process.
-
-所以转圈停止的条件为： `Matrix[i][j] != -1;`
-
-ok，如果将每一步产生的值记录下来（设为value, 每走一步就自加）, 那么当 value == n*n 的时候就算走到了中心。如果不等于 n*n，就要向里面再转一圈。
-
-思路很清楚了，我觉得这个解法很直接，代码也并不繁复，非常好理解。请大家拍砖。
